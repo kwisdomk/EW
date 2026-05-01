@@ -51,7 +51,7 @@ EpidemiWatch Sentinel is a real-time epidemic surveillance system designed for K
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/kwisdomk/EW.git
    cd EW
    ```
 
@@ -255,9 +255,9 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ## 📞 Contact
 
-**Project:** EpidemiWatch Sentinel  
-**Hackathon:** IBM Dev Day 2026  
-**Repository:** [GitHub URL]
+**Project:** EpidemiWatch Sentinel
+**Hackathon:** IBM Dev Day 2026
+**Repository:** https://github.com/kwisdomk/EW
 
 ---
 
