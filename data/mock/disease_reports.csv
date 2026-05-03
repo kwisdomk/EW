@@ -1,0 +1,201 @@
+county,sub_county,disease,cases,report_date
+Mombasa,Changamwe,cholera,332,2026-01-01
+Uasin Gishu,Kesses,typhoid,497,2026-04-26
+Kilifi,Kilifi South,typhoid,25,2026-03-03
+Nairobi,Embakasi,malaria,408,2026-01-11
+Kakamega,Kakamega Central,typhoid,310,2026-04-03
+Nairobi,Westlands,typhoid,414,2026-04-23
+Nairobi,Embakasi,cholera,56,2026-03-18
+Kisumu,Kisumu West,malaria,356,2026-04-16
+Kakamega,Lugari,cholera,113,2026-03-06
+Machakos,Machakos Town,malaria,387,2026-01-12
+Kakamega,Kakamega Central,malaria,356,2026-04-12
+Kakamega,Butere,typhoid,419,2026-01-09
+Nakuru,Njoro,typhoid,95,2026-04-25
+Machakos,Matungulu,cholera,293,2026-03-16
+Mombasa,Likoni,malaria,478,2026-02-26
+Kilifi,Kaloleni,malaria,418,2026-02-04
+Nairobi,Dagoretti,malaria,396,2026-02-19
+Kisumu,Kisumu Central,malaria,390,2026-04-30
+Machakos,Athi River,typhoid,104,2026-03-07
+Nairobi,Westlands,malaria,238,2026-03-14
+Mombasa,Nyali,typhoid,181,2026-04-08
+Meru,Tigania,cholera,477,2026-01-19
+Kakamega,Butere,cholera,217,2026-01-17
+Meru,Tigania,malaria,31,2026-01-31
+Kiambu,Ruiru,cholera,75,2026-03-26
+Nakuru,Nakuru Town,cholera,347,2026-03-23
+Kiambu,Ruiru,typhoid,187,2026-02-16
+Kiambu,Kikuyu,typhoid,71,2026-04-13
+Uasin Gishu,Eldoret West,cholera,290,2026-02-07
+Kilifi,Kaloleni,malaria,458,2026-04-13
+Nakuru,Gilgil,malaria,22,2026-02-12
+Nakuru,Njoro,cholera,222,2026-01-23
+Kilifi,Malindi,malaria,66,2026-03-15
+Kisumu,Seme,cholera,9,2026-04-09
+Nakuru,Naivasha,cholera,75,2026-04-12
+Kakamega,Kakamega Central,malaria,42,2026-04-18
+Kilifi,Kilifi North,typhoid,102,2026-03-02
+Kakamega,Lugari,cholera,131,2026-01-20
+Uasin Gishu,Kesses,typhoid,158,2026-02-23
+Machakos,Matungulu,typhoid,123,2026-03-10
+Nairobi,Embakasi,typhoid,421,2026-03-13
+Mombasa,Nyali,malaria,141,2026-01-08
+Kilifi,Kaloleni,cholera,379,2026-03-08
+Kisumu,Kisumu Central,malaria,421,2026-02-05
+Uasin Gishu,Kapseret,cholera,360,2026-01-24
+Kisumu,Kisumu East,malaria,365,2026-01-26
+Kisumu,Seme,malaria,403,2026-03-13
+Kisumu,Kisumu East,cholera,232,2026-02-05
+Nairobi,Dagoretti,cholera,494,2026-04-13
+Uasin Gishu,Eldoret East,malaria,299,2026-03-29
+Mombasa,Likoni,typhoid,75,2026-03-16
+Kiambu,Limuru,malaria,226,2026-02-22
+Kiambu,Ruiru,typhoid,482,2026-01-19
+Kisumu,Kisumu Central,malaria,318,2026-02-02
+Kisumu,Kisumu East,malaria,294,2026-04-12
+Meru,Tigania,cholera,203,2026-04-04
+Kakamega,Mumias,cholera,325,2026-04-22
+Mombasa,Kisauni,malaria,390,2026-04-27
+Uasin Gishu,Eldoret East,cholera,126,2026-03-02
+Meru,Tigania,typhoid,147,2026-01-01
+Kakamega,Kakamega Central,typhoid,48,2026-03-31
+Kilifi,Kilifi North,malaria,409,2026-01-11
+Uasin Gishu,Eldoret West,typhoid,392,2026-04-29
+Kakamega,Lugari,cholera,125,2026-04-07
+Meru,Tigania,malaria,157,2026-02-11
+Kilifi,Kaloleni,typhoid,388,2026-03-31
+Uasin Gishu,Eldoret East,malaria,256,2026-01-19
+Machakos,Kangundo,malaria,407,2026-03-26
+Kakamega,Mumias,typhoid,348,2026-02-12
+Machakos,Machakos Town,cholera,78,2026-01-14
+Mombasa,Kisauni,cholera,93,2026-02-01
+Uasin Gishu,Eldoret East,cholera,258,2026-03-26
+Nakuru,Molo,typhoid,462,2026-02-08
+Nakuru,Naivasha,cholera,376,2026-04-17
+Kiambu,Kikuyu,typhoid,92,2026-03-24
+Uasin Gishu,Eldoret West,malaria,284,2026-04-24
+Kiambu,Limuru,malaria,372,2026-04-17
+Machakos,Kangundo,cholera,181,2026-02-27
+Kakamega,Kakamega Central,cholera,167,2026-03-10
+Nakuru,Naivasha,cholera,42,2026-04-12
+Kilifi,Kaloleni,cholera,315,2026-01-16
+Nakuru,Molo,malaria,386,2026-02-26
+Nakuru,Njoro,malaria,405,2026-01-23
+Kilifi,Kaloleni,typhoid,32,2026-04-15
+Kakamega,Kakamega Central,malaria,72,2026-03-22
+Kilifi,Kilifi North,cholera,74,2026-02-14
+Kisumu,Muhoroni,typhoid,106,2026-04-14
+Meru,Meru Central,cholera,67,2026-01-17
+Machakos,Matungulu,typhoid,291,2026-04-01
+Meru,Meru Central,malaria,259,2026-03-22
+Machakos,Matungulu,cholera,461,2026-04-28
+Kakamega,Mumias,typhoid,107,2026-01-05
+Nakuru,Molo,typhoid,379,2026-03-25
+Kiambu,Kiambu Town,typhoid,23,2026-01-02
+Machakos,Athi River,typhoid,200,2026-03-04
+Mombasa,Nyali,typhoid,82,2026-01-30
+Uasin Gishu,Eldoret West,typhoid,328,2026-03-11
+Meru,Imenti South,typhoid,353,2026-01-06
+Kiambu,Ruiru,cholera,408,2026-04-19
+Machakos,Matungulu,typhoid,44,2026-03-31
+Machakos,Matungulu,cholera,28,2026-03-13
+Kisumu,Muhoroni,typhoid,291,2026-04-03
+Kiambu,Limuru,cholera,324,2026-02-18
+Machakos,Machakos Town,typhoid,244,2026-04-28
+Kisumu,Seme,malaria,281,2026-02-23
+Kakamega,Mumias,typhoid,124,2026-01-08
+Uasin Gishu,Eldoret East,malaria,497,2026-02-08
+Nairobi,Langata,cholera,423,2026-02-07
+Machakos,Kangundo,malaria,64,2026-03-08
+Kakamega,Butere,typhoid,268,2026-01-05
+Nakuru,Nakuru Town,typhoid,261,2026-03-13
+Meru,Imenti North,cholera,456,2026-01-31
+Meru,Tigania,cholera,185,2026-01-14
+Machakos,Athi River,cholera,140,2026-01-12
+Kisumu,Muhoroni,typhoid,191,2026-04-11
+Kakamega,Lugari,malaria,173,2026-03-24
+Machakos,Kangundo,malaria,271,2026-01-15
+Machakos,Kangundo,cholera,454,2026-04-18
+Meru,Meru Central,cholera,250,2026-03-13
+Kisumu,Kisumu West,malaria,237,2026-02-13
+Machakos,Athi River,malaria,383,2026-04-05
+Nairobi,Langata,malaria,481,2026-02-15
+Kilifi,Kaloleni,malaria,71,2026-01-18
+Nairobi,Kasarani,typhoid,359,2026-04-03
+Meru,Tigania,typhoid,283,2026-04-03
+Kiambu,Kikuyu,typhoid,413,2026-03-11
+Kakamega,Lugari,cholera,120,2026-04-24
+Meru,Imenti South,malaria,390,2026-04-12
+Nakuru,Gilgil,cholera,223,2026-04-20
+Kakamega,Butere,cholera,389,2026-02-10
+Kiambu,Thika,typhoid,125,2026-04-02
+Kisumu,Kisumu East,malaria,7,2026-01-04
+Nairobi,Westlands,malaria,60,2026-03-23
+Machakos,Kangundo,typhoid,210,2026-01-09
+Nakuru,Gilgil,malaria,261,2026-01-23
+Nakuru,Nakuru Town,cholera,243,2026-01-07
+Kilifi,Kilifi South,cholera,107,2026-01-19
+Machakos,Kangundo,cholera,479,2026-01-28
+Nakuru,Gilgil,typhoid,345,2026-04-03
+Kakamega,Butere,cholera,160,2026-03-26
+Nairobi,Westlands,typhoid,408,2026-04-09
+Kiambu,Kiambu Town,typhoid,160,2026-03-31
+Mombasa,Jomvu,typhoid,111,2026-02-26
+Mombasa,Kisauni,typhoid,78,2026-03-25
+Nakuru,Njoro,typhoid,154,2026-02-27
+Machakos,Machakos Town,cholera,467,2026-01-09
+Kisumu,Kisumu West,malaria,10,2026-04-11
+Nakuru,Naivasha,typhoid,116,2026-04-16
+Machakos,Machakos Town,cholera,441,2026-02-25
+Kilifi,Kilifi North,malaria,315,2026-03-02
+Machakos,Matungulu,malaria,445,2026-04-28
+Nairobi,Langata,malaria,52,2026-03-14
+Kakamega,Kakamega Central,malaria,131,2026-03-13
+Mombasa,Changamwe,malaria,163,2026-04-16
+Kilifi,Kilifi South,typhoid,487,2026-04-04
+Kisumu,Seme,typhoid,256,2026-01-18
+Nakuru,Molo,typhoid,50,2026-02-08
+Mombasa,Likoni,typhoid,408,2026-03-22
+Kilifi,Kaloleni,typhoid,401,2026-02-19
+Kilifi,Malindi,cholera,114,2026-01-16
+Machakos,Machakos Town,typhoid,447,2026-04-03
+Meru,Meru Central,cholera,14,2026-01-03
+Machakos,Machakos Town,cholera,134,2026-02-20
+Nairobi,Kasarani,typhoid,90,2026-01-26
+Mombasa,Mvita,typhoid,127,2026-02-25
+Nakuru,Nakuru Town,typhoid,52,2026-02-27
+Kisumu,Seme,cholera,12,2026-02-28
+Nakuru,Gilgil,cholera,207,2026-01-06
+Kilifi,Kilifi South,malaria,336,2026-03-16
+Uasin Gishu,Eldoret East,malaria,13,2026-04-01
+Kakamega,Kakamega Central,typhoid,302,2026-04-02
+Kisumu,Muhoroni,cholera,27,2026-03-15
+Mombasa,Mvita,malaria,289,2026-04-04
+Kisumu,Kisumu West,cholera,357,2026-01-15
+Meru,Imenti North,malaria,297,2026-02-19
+Nakuru,Naivasha,typhoid,47,2026-03-09
+Machakos,Kangundo,cholera,409,2026-04-08
+Kilifi,Malindi,cholera,135,2026-02-11
+Nakuru,Njoro,cholera,410,2026-04-29
+Uasin Gishu,Kapseret,typhoid,390,2026-04-11
+Meru,Imenti South,cholera,385,2026-01-29
+Nairobi,Westlands,typhoid,282,2026-01-14
+Kisumu,Seme,cholera,25,2026-04-26
+Kiambu,Kiambu Town,typhoid,344,2026-01-28
+Kilifi,Kilifi South,malaria,146,2026-03-09
+Kakamega,Butere,malaria,214,2026-02-05
+Nairobi,Dagoretti,cholera,56,2026-02-01
+Nairobi,Dagoretti,cholera,156,2026-03-07
+Kilifi,Malindi,cholera,286,2026-02-08
+Machakos,Matungulu,cholera,117,2026-02-11
+Nakuru,Molo,malaria,158,2026-03-01
+Nakuru,Naivasha,cholera,142,2026-02-20
+Kiambu,Kiambu Town,cholera,376,2026-02-11
+Uasin Gishu,Kesses,cholera,277,2026-04-13
+Nakuru,Njoro,cholera,148,2026-03-08
+Uasin Gishu,Eldoret West,typhoid,183,2026-04-07
+Nairobi,Dagoretti,malaria,240,2026-01-16
+Nakuru,Molo,typhoid,157,2026-03-05
+Nairobi,Kasarani,cholera,219,2026-02-13
+Nakuru,Molo,malaria,102,2026-03-21
