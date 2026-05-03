@@ -1,8 +1,8 @@
-# EpidemiWatch Sentinel - Frontend
+# EpidermiWatch - Frontend
 
 ## Status: 🚧 Implementation Pending
 
-The frontend dashboard for EpidemiWatch Sentinel is currently under development.
+The frontend dashboard for EpidermiWatch is currently under development.
 
 ### Planned Technology Stack
 - **Framework:** React 18

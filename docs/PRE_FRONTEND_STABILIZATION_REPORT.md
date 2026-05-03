@@ -1,4 +1,4 @@
-# EpidemiWatch Sentinel - Pre-Frontend Stabilization Report
+# EpidermiWatch - Pre-Frontend Stabilization Report
 **Date:** 2026-05-01  
 **Status:** Backend Complete | Frontend Pending | GitHub Push Ready  
 **Reviewer:** Bob (Senior Release Engineer)
@@ -173,7 +173,7 @@ docs/bob_logs/
 **File:** `README.md`
 
 ```markdown
-# EpidemiWatch Sentinel (EW)
+# EpidermiWatch (EW)
 
 > AI-Powered Epidemic Surveillance, Early Warning & County Health Response Platform  
 > **IBM Dev Day Hackathon 2026** | Built with IBM Bob
@@ -186,7 +186,7 @@ docs/bob_logs/
 
 ## 🎯 Project Overview
 
-EpidemiWatch Sentinel is a real-time epidemic surveillance system designed for Kenyan county health officers. It uses **statistical anomaly detection** (z-score analysis) to identify disease outbreaks and generate actionable alerts with AI-powered summaries.
+EpidermiWatch is a real-time epidemic surveillance system designed for Kenyan county health officers. It uses **statistical anomaly detection** (z-score analysis) to identify disease outbreaks and generate actionable alerts with AI-powered summaries.
 
 ### Key Features
 - ✅ **Statistical Outbreak Detection** - Z-score algorithm with edge case handling
@@ -429,7 +429,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 ## 📞 Contact
 
-**Project:** EpidemiWatch Sentinel  
+**Project:** EpidermiWatch
 **Hackathon:** IBM Dev Day 2026  
 **Repository:** [GitHub URL]
 

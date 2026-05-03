@@ -1,6 +1,6 @@
-# IBM Bob Prompts Used - EpidemiWatch Sentinel
+# IBM Bob Prompts Used - EpidermiWatch
 
-This document tracks all prompts used with IBM Bob during the development of EpidemiWatch Sentinel.
+This document tracks all prompts used with IBM Bob during the development of EpidermiWatch.
 
 ---
 

@@ -1,4 +1,4 @@
-# EpidemiWatch Sentinel - Code Review & 72-Hour Implementation Plan
+# EpidermiWatch - Code Review & 72-Hour Implementation Plan
 **Review Date:** 2026-04-30  
 **Status:** Pre-Implementation (Day 1, Hour 0)  
 **Reviewer:** Bob (Planning Mode)

@@ -1,4 +1,4 @@
-# EW_WORKFLOW.md — EpidemiWatch Sentinel 72-Hour Command Workflow
+# EW_WORKFLOW.md — EpidermiWatch 72-Hour Command Workflow
 ## IBM Dev Day: Bob Edition | Solo Dev Operational Blueprint
 ## Repository: EW
 ## Mission: Build a credible, IBM-aligned epidemic surveillance proof-of-concept in 72 hours.
@@ -22,7 +22,7 @@ AI alone
 
 # PRIMARY OBJECTIVE
 ## Build:
-### “EpidemiWatch Sentinel — Public Health Threat Intelligence Platform”
+### "EpidermiWatch — Public Health Threat Intelligence Platform"
 
 ### For:
 County Health Officers / Public Health Decision Makers

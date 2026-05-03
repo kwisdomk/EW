@@ -1,4 +1,4 @@
-# GitHub Push Checklist - EpidemiWatch Sentinel
+# GitHub Push Checklist - EpidermiWatch
 
 **Date:** 2026-05-01  
 **Status:** Pre-Frontend Stabilization Complete  

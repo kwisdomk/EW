@@ -14,7 +14,7 @@ import java.time.LocalDate;
 import java.util.Random;
 
 /**
- * Startup data seeder for EpidemiWatch Sentinel.
+ * Startup data seeder for EpidermiWatch.
  * Generates 4 weeks of mock epidemiological data for 10 Kenyan counties.
  * 
  * GUARANTEED: Nairobi + cholera will produce a RED alert after /api/detect.

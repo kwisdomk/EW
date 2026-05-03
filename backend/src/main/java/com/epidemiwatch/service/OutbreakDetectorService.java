@@ -57,6 +57,9 @@ public class OutbreakDetectorService {
     @Inject
     AlertBroadcaster alertBroadcaster;
 
+    @Inject
+    WatsonAnalyticsService watsonService;
+
     private final AtomicBoolean isDetecting = new AtomicBoolean(false);
 
     // ─────────────────────────────────────────────────────────────────────────
@@ -343,32 +346,12 @@ public class OutbreakDetectorService {
 
     private String buildWatsonSummary(String county, String disease, String level,
                                       int latest, double mean, double zScore) {
-        return String.format(
-            "EpidemiWatch AI detected a potential %s outbreak in %s County. " +
-            "Current week cases: %d (historical mean: %.1f). " +
-            "Statistical z-score: %.2f — classified as %s alert level.",
-            disease.toUpperCase(), county, latest, mean, zScore, level
-        );
+        // Use IBM Watson Analytics Service for AI-powered outbreak summaries
+        return watsonService.generateOutbreakSummary(county, disease, level, latest, mean, zScore);
     }
 
     private String buildRecommendedAction(String level, String disease, String county) {
-        return switch (level) {
-            case "RED" -> String.format(
-                "IMMEDIATE ACTION REQUIRED: Deploy rapid response team to %s. " +
-                "Notify county health director. Issue public health advisory for %s.",
-                county, disease
-            );
-            case "ORANGE" -> String.format(
-                "URGENT: Increase surveillance in %s for %s. " +
-                "Alert sub-county health officers. Prepare treatment stockpiles.",
-                county, disease
-            );
-            case "YELLOW" -> String.format(
-                "MONITOR: Elevated %s cases in %s. " +
-                "Increase community health worker visits. Review water/sanitation.",
-                disease, county
-            );
-            default -> "Continue routine surveillance.";
-        };
+        // Use IBM Watson Analytics Service for AI-powered action recommendations
+        return watsonService.generateRecommendedActions(level, disease, county, 0.0);
     }
 }

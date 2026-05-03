@@ -136,7 +136,7 @@ curl http://localhost:8080/health
 ```json
 {
   "status": "UP",
-  "message": "EpidemiWatch Sentinel Backend is running"
+  "message": "EpidermiWatch Backend is running"
 }
 ```
 
@@ -432,7 +432,7 @@ alert.setWatsonSummary(String.format(
 ## 📊 DEMO SCRIPT (30 seconds)
 
 **Narrator:**
-> "EpidemiWatch Sentinel uses statistical anomaly detection to identify disease outbreaks in real-time."
+> "EpidermiWatch uses statistical anomaly detection to identify disease outbreaks in real-time."
 
 **Action 1:** Show seeded data
 ```bash

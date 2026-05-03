@@ -203,7 +203,7 @@ List<OutbreakAlert> findByAlertLevel(String alertLevel);
 ```json
 {
   "status": "UP",
-  "message": "EpidemiWatch Sentinel Backend is running"
+  "message": "EpidermiWatch Backend is running"
 }
 ```
 
@@ -349,7 +349,7 @@ cd backend
 ```bash
 curl http://localhost:8080/health
 ```
-**Expected:** `{"status":"UP","message":"EpidemiWatch Sentinel Backend is running"}`
+**Expected:** `{"status":"UP","message":"EpidermiWatch Backend is running"}`
 
 ### Reports API Test
 ```bash

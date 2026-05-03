@@ -1,4 +1,4 @@
-# EpidemiWatch Sentinel - Backend
+# EpidermiWatch - Backend
 
 A Quarkus-based backend system for real-time epidemic surveillance and outbreak detection in Kenya.
 

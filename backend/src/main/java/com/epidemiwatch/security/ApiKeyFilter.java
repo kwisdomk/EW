@@ -13,7 +13,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Hackathon-grade API key security filter for EpidemiWatch Sentinel.
+ * Hackathon-grade API key security filter for EpidermiWatch.
  *
  * <p>Protected methods/paths require the header {@code X-API-KEY: epidemiwatch-dev}.
  * All GET endpoints are intentionally left open to allow dashboard and health-check

@@ -1,5 +1,5 @@
 @echo off
-REM EpidemiWatch Sentinel - Backend Startup Script
+REM EpidermiWatch - Backend Startup Script
 REM Handles Java 25 + ByteBuddy compatibility automatically
 
 setlocal
@@ -24,7 +24,7 @@ if "%JAVA_HOME%"=="" (
 
 echo.
 echo ============================================
-echo   EpidemiWatch Sentinel Backend
+echo   EpidermiWatch Backend
 echo   Quarkus 3.15.1 ^| Port 8080
 echo   DB: H2 Persistent File Mode (./data)
 echo ============================================

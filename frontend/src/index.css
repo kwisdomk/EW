@@ -1,0 +1,447 @@
+/* ============================================================================
+   EpidermiWatch - Mission-Critical Command Center Styles
+   Tactical Operations Interface - No Startup SaaS Aesthetics
+   ============================================================================ */
+
+/* Import Google Fonts - Inter (Sans) + JetBrains Mono (Mono) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #1e293b;
+  }
+  
+  body {
+    background-color: #050505;
+    color: #e2e8f0;
+    font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  #root {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+@layer components {
+  /* Severity Badge Styles */
+  .badge-red {
+    @apply bg-ew-red text-white px-2 py-1 text-xs font-bold uppercase tracking-wider;
+  }
+  
+  .badge-orange {
+    @apply bg-ew-orange text-gray-900 px-2 py-1 text-xs font-bold uppercase tracking-wider;
+  }
+  
+  .badge-yellow {
+    @apply bg-ew-yellow text-gray-900 px-2 py-1 text-xs font-bold uppercase tracking-wider;
+  }
+  
+  .badge-green {
+    @apply bg-ew-green text-white px-2 py-1 text-xs font-bold uppercase tracking-wider;
+  }
+  
+  /* Panel Styles */
+  .panel {
+    @apply bg-ew-panel border border-ew-border;
+  }
+  
+  /* Alert Row Styles */
+  .alert-row {
+    @apply border-l-4 hover:bg-ew-bg cursor-pointer transition-colors;
+  }
+  
+  .alert-row-red {
+    @apply border-l-ew-red;
+  }
+  
+  .alert-row-orange {
+    @apply border-l-ew-orange;
+  }
+  
+  .alert-row-yellow {
+    @apply border-l-ew-yellow;
+  }
+  
+  .alert-row-selected {
+    @apply bg-ew-bg ring-1 ring-ew-border;
+  }
+  
+  /* Button Styles */
+  .btn-primary {
+    @apply bg-ew-border hover:bg-gray-700 text-gray-100 px-4 py-2 text-sm font-medium uppercase tracking-wide transition-colors;
+  }
+  
+  .btn-danger {
+    @apply bg-ew-red hover:bg-red-700 text-white px-4 py-2 text-sm font-medium uppercase tracking-wide transition-colors;
+  }
+  
+  .btn-warning {
+    @apply bg-ew-orange hover:bg-orange-600 text-gray-900 px-4 py-2 text-sm font-medium uppercase tracking-wide transition-colors;
+  }
+  
+  /* Scrollbar Styles */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-ew-bg;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-ew-border hover:bg-gray-600;
+  }
+}
+
+@layer utilities {
+  /* Pulse Animation for Live Indicators */
+  .pulse-red {
+    animation: pulse-red 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  @keyframes pulse-red {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  /* Monospace Data Values */
+  .data-value {
+    @apply font-mono text-sm tracking-tight;
+  }
+  
+  /* Grid Layout Utilities */
+  .grid-command-center {
+    display: grid;
+    grid-template-rows: 64px 1fr 192px;
+    grid-template-columns: 400px 1fr;
+    height: 100vh;
+    gap: 0;
+  }
+  
+  .grid-header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  
+  .grid-feed {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .grid-map {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .grid-console {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .grid-charts {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+}
+
+/* Leaflet Map Overrides */
+.leaflet-container {
+  @apply bg-ew-bg;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  @apply bg-ew-panel border border-ew-border text-gray-100;
+}
+
+.leaflet-popup-tip {
+  @apply bg-ew-panel;
+}
+
+/* Made with Bob */
+
+
+@layer components {
+  /* ========================================================================
+     SCAN-LINE OVERLAY - Tactical Radar Effect
+     ======================================================================== */
+  .scan-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(to bottom, 
+      transparent 0%, 
+      rgba(244, 63, 94, 0.3) 50%, 
+      transparent 100%);
+    pointer-events: none;
+    z-index: 9999;
+    animation: scan-line 8s linear infinite;
+  }
+  
+  /* ========================================================================
+     PANEL STYLES - Glassmorphism with Low Opacity
+     ======================================================================== */
+  .panel {
+    background-color: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(8px);
+    border: 1px solid #1e293b;
+  }
+  
+  .panel-alt {
+    background-color: rgba(2, 6, 23, 0.9);
+    backdrop-filter: blur(12px);
+    border: 1px solid #1e293b;
+  }
+  
+  /* ========================================================================
+     SEVERITY BADGES - LED Style with Uppercase Tracking
+     ======================================================================== */
+  .badge {
+    @apply px-2 py-1 text-[10px] font-mono font-bold uppercase tracking-widest;
+  }
+  
+  .badge-critical {
+    @apply badge;
+    background-color: #f43f5e;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(244, 63, 94, 0.4);
+  }
+  
+  .badge-elevated {
+    @apply badge;
+    background-color: #f97316;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(249, 115, 22, 0.4);
+  }
+  
+  .badge-monitoring {
+    @apply badge;
+    background-color: #eab308;
+    color: #000000;
+    box-shadow: 0 0 10px rgba(234, 179, 8, 0.4);
+  }
+  
+  .badge-secure {
+    @apply badge;
+    background-color: #10b981;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+  }
+  
+  /* ========================================================================
+     ALERT ROW STYLES - Left Border Color Coding
+     ======================================================================== */
+  .alert-row {
+    @apply border-l-4 transition-colors cursor-pointer;
+  }
+  
+  .alert-row:hover {
+    background-color: rgba(15, 23, 42, 0.5);
+  }
+  
+  .alert-row-critical {
+    border-left-color: #f43f5e;
+  }
+  
+  .alert-row-elevated {
+    border-left-color: #f97316;
+  }
+  
+  .alert-row-monitoring {
+    border-left-color: #eab308;
+  }
+  
+  .alert-row-selected {
+    background-color: rgba(15, 23, 42, 0.8);
+    ring: 1px solid #1e293b;
+  }
+  
+  /* ========================================================================
+     BUTTON STYLES - Tactical Command Buttons
+     ======================================================================== */
+  .btn {
+    @apply px-4 py-2 text-sm font-mono font-medium uppercase tracking-wide transition-colors;
+  }
+  
+  .btn-primary {
+    @apply btn;
+    background-color: #1e293b;
+    color: #cbd5e1;
+  }
+  
+  .btn-primary:hover {
+    background-color: #334155;
+  }
+  
+  .btn-danger {
+    @apply btn;
+    background-color: #f43f5e;
+    color: #ffffff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e11d48;
+  }
+  
+  .btn-warning {
+    @apply btn;
+    background-color: #f97316;
+    color: #ffffff;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ea580c;
+  }
+  
+  /* ========================================================================
+     SCROLLBAR STYLES - Minimal Dark Theme
+     ======================================================================== */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #050505;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #1e293b;
+    border-radius: 3px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #334155;
+  }
+  
+  /* ========================================================================
+     SECTION HEADERS - Ultra-Thin Uppercase Monospace
+     ======================================================================== */
+  .section-header {
+    @apply text-[10px] tracking-widest font-mono uppercase text-slate-500;
+  }
+  
+  /* ========================================================================
+     DATA VALUES - Monospace for Metrics
+     ======================================================================== */
+  .data-value {
+    @apply font-mono text-sm tracking-tight;
+  }
+  
+  .data-value-large {
+    @apply font-mono text-3xl font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  /* ========================================================================
+     GRID LAYOUT - Non-Scrolling Command Center
+     ======================================================================== */
+  .grid-command-center {
+    display: grid;
+    grid-template-rows: 64px 1fr 200px;
+    grid-template-columns: 320px 1fr 384px;
+    height: 100vh;
+    width: 100vw;
+    gap: 0;
+    overflow: hidden;
+  }
+  
+  .grid-header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+  
+  .grid-feed {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .grid-map {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .grid-console {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  
+  .grid-charts {
+    grid-column: 1 / -1;
+    grid-row: 3;
+  }
+  
+  /* ========================================================================
+     GLOW EFFECTS - LED Style Shadows
+     ======================================================================== */
+  .glow-critical {
+    box-shadow: 0 0 15px rgba(244, 63, 94, 0.6);
+  }
+  
+  .glow-elevated {
+    box-shadow: 0 0 15px rgba(249, 115, 22, 0.6);
+  }
+  
+  .glow-secure {
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.6);
+  }
+  
+  /* ========================================================================
+     PULSE ANIMATIONS
+     ======================================================================== */
+  .pulse-secure {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% {
+      opacity: 1;
+      box-shadow: 0 0 15px rgba(16, 185, 129, 0.6);
+    }
+    50% {
+      opacity: 0.6;
+      box-shadow: 0 0 5px rgba(16, 185, 129, 0.3);
+    }
+  }
+}
+
+/* ============================================================================
+   LEAFLET MAP OVERRIDES - Dark Theme
+   ============================================================================ */
+.leaflet-container {
+  background-color: #020617;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: rgba(15, 23, 42, 0.95);
+  border: 1px solid #1e293b;
+  color: #cbd5e1;
+  backdrop-filter: blur(8px);
+}
+
+.leaflet-popup-tip {
+  background-color: rgba(15, 23, 42, 0.95);
+}
+
+/* Made with Bob */
